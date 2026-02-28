@@ -29,4 +29,20 @@ The paths can be generated using AI models (like GPT) or rule-based logic.
 
 ## 📁 Repository Structure
 
+Learning-path-generator/
+├── workflows/                  # GitHub Action workflows
+│   └── generate-path.yml       # Automatically runs the generator
+├── scripts/                    # Core scripts for learning path generation
+│   ├── path_generator.py
+│   ├── preprocess.py
+│   └── utils.py
+├── data/                       # Example input datasets
+│   └── sample_inputs.json
+├── notebooks/                  # Optional demo notebooks
+│   └── demo.ipynb
+├── tests/                      # Unit tests
+│   └── test_generator.py
+├── requirements.txt            # Python dependencies
+├── Dockerfile                  # Optional container configuration
+└── README.md                   # This file
 
